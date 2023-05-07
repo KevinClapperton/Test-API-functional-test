@@ -1,8 +1,8 @@
 {
   "name": "test-api-functional-test",
   "displayName": "Test API functional test",
-  "description": "Extension that calls some funtions of the Test API to see if it works ",
-  "version": "0.0.1",
+  "description": "Extension that calls some functions of the Test API to see if it works ",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.78.0"
   },
@@ -16,8 +16,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "test-api-functional-test.helloWorld",
-        "title": "Hello World"
+        "command": "test-api-functional-test.runAllTest",
+        "title": "Test API: Run All Test"
       }
     ]
   },
